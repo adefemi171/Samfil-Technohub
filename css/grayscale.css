@@ -98,6 +98,9 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  flex-grow: 1;
+  color: black;
+
 }
 
 .masthead h1 {
@@ -163,12 +166,12 @@
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #63d6cf !important;
 }
 
 .about-section {
   padding-top: 10rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
+  background: -webkit-gradient(linear, left top, left bottom, from(#36daccd3), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
 
@@ -235,7 +238,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #6fcfc98d;
 }
 
 .contact-section .card h4 {
@@ -246,7 +249,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #7fe4ddc4;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -259,18 +262,18 @@
   text-align: center;
   height: 3rem;
   width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(65, 236, 207, 0.685);
   border-radius: 100%;
   line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(22, 21, 21, 0.89);
 }
 
 .contact-section .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(65, 198, 202, 0.76);
 }
 
 .contact-section .social a:active {
-  color: #fff;
+  color: rgba(58, 216, 208, 0.637);
 }
 
 body {
@@ -288,7 +291,7 @@ a:focus, a:hover {
 }
 
 .bg-black {
-  background-color: #161616 !important;
+  background-color: #B0E0E6 !important;
 }
 
 .bg-primary {
@@ -301,4 +304,5 @@ a:focus, a:hover {
 
 footer {
   padding: 5rem 0;
+  color: #151616;
 }
